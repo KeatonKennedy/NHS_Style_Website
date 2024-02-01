@@ -1,0 +1,154 @@
+body {
+    background-color: lightblue;
+}
+
+.logo {
+    height: 50px;
+    width: 115px;
+}
+
+.doctorimg {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.doctorimg2 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.navbar {
+    position: sticky;
+    padding: 10px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 95vw;
+    margin: auto;
+  }
+
+  /* Style the links inside the navigation bar */
+.navbar a {
+    float: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;   
+  }
+
+.text {
+    top: -38%;
+}
+
+.text-container {
+    bottom: 20px;
+    top: 20px;
+    position: relative;
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.295);
+    height: 80vh;
+    width: 55vh;
+    left: 40%;
+}
+
+a {
+    position: relative;
+    left: 30.5%;
+  }
+
+h1 {
+    top: 120px;
+    margin-right: 20px;
+    left: 40%;
+    font-size: 15px;
+}
+
+h2 {
+    text-align: center;
+  }
+
+h3 {
+    text-decoration: underline;
+    top: 90px;
+    margin-right: 20px;
+    left: 40%;
+    font-size: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container2 {
+    left: 25%;
+    padding: 10px;
+    top: 10vh;
+    position: absolute;
+    background-color: aliceblue;
+    width: 50vw;
+    height: max-content;
+}
+
+.profile {
+    height: 50px;
+    width: 50px;
+}
+
+.grid-container {
+    position: grid;
+}
+
+.home {
+    height: 478px;
+    width: 478px;
+}
+
+input[type=text], input[type=password] {
+    width: 95%;
+    font-size: 28px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+ }
+ label{
+    font-size: 15px;
+ }
+ input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+ }
+ hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+ }
+ button {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(39, 137, 170);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+ }
+ button:hover {
+    opacity:1;
+ }
+ .formContainer {
+    padding: 16px;
+    background-color: rgba(230, 230, 230, 0.815)
+ }
+ .formContainer p{
+    font-size: 28px;
+ }

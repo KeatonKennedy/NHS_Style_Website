@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" ></script>
+    <title>Kennedy Health Advice</title>
+</head>
+<body>
+    <div class="container1">
+        <div class="navbar">
+            <a href="home.html"><img class="logo" src="PicsFolder/LogoKennedy3.png" alt="Home"></a>
+            <a class="text" href="sign_up.html">Sign Up</a>
+            <a class="text" href="about_us.html">Meet The Team</a>
+            <a class="text" href="gallery.html">Gallery</a>
+            <a class="text" href="contact_us.html">Contact Us</a>
+            <a href="sign_up.html"><img class="profile" src="PicsFolder/Profile.png" alt="Profile"></a>
+        </div>
+        
+        <div class="container2">
+            <h2>Home</h2>
+            <h1>Weather</h1>
+            <input type="text" id="Location_Input" placeholder="Enter Location">
+            <button type="submit" class="signup" onclick="Search_Location()">Search</button>
+            <button type="submit" class="signup" onclick="Refresh()">Clear</button>
+            
+            <div class="weatherWidget" ></div>
+        </div>
+    </div>
+</body>
+</html>
